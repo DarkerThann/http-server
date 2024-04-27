@@ -1,1 +1,1 @@
-### A simple HTTP server written in Rust with the aim of understanding some language concepts such as mutability, ownership, borrowing, and lifetimes.
+A simple HTTP server written in Rust with the aim of understanding some language concepts such as mutability, ownership, borrowing, and lifetimes.
