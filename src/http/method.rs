@@ -1,5 +1,6 @@
-Use std::str::FromStr;
+use std::str::FromStr;
 
+#[derive(Debug)]
 pub enum Method {
     GET,
     POST,
@@ -13,7 +14,7 @@ pub enum Method {
 
 impl FromStr for Method {
 
-    type Err = struct MethodError;
+    type Err = MethodError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
